@@ -1,0 +1,63 @@
+.content {
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.includes {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer-container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  color: white;
+  font-family: cursive;
+  font-size: 12px;
+  background-color: #192733;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+}
+
+table {
+    width: 100%;       
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bgIndex.png'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #0056b3; /* A soothing blue color */
+    text-align: center;
+}
+
+p {
+    color: #333; /* Dark gray text color for readability */
+    line-height: 1.6;
+}

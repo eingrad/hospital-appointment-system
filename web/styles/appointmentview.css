@@ -1,0 +1,74 @@
+/* Custom Styles for Appointment View Page */
+.content {
+    padding: 20px;
+    background-color: #f5f5f5; 
+}
+
+.table {
+    background-color: #ffffff; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-collapse: separate;
+    border-spacing: 0 15px; 
+}
+
+.table th {
+    background-color: #4e5d6c; 
+    color: #ffffff; 
+    padding: 15px;
+}
+
+.table td {
+    padding: 15px; 
+    vertical-align: middle;
+}
+
+.table tr {
+    border-radius: 8px; 
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-edit, .btn-delete {
+    width: 100px; 
+    height: 40px;
+    line-height: 40px; 
+    padding: 0; 
+    text-align: center; 
+    font-size: 1rem; 
+}
+
+.btn-danger {
+    background-color: #e74c3c; 
+    border-color: #e74c3c;
+}
+
+
+/* Custom Styles for Edit and Delete Buttons */
+.btn-edit {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #218838; 
+    border-color: #1e7e34;
+}
+
+.btn-delete {
+    background-color: #dc3545; 
+    border-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+
